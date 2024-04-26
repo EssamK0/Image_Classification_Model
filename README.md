@@ -29,6 +29,9 @@ The CNN model was trained using the Adam optimizer and categorical cross-entropy
 
 The model's performance was evaluated using classification metrics such as accuracy, precision, recall, and F1-score. Additionally, a confusion matrix was generated to visualize the model's performance across different classes. Wrong predictions were identified and displayed along with the corresponding true and predicted labels to analyze the model's errors.
 
-## Conclusion
+## Requirements
 
-Through this project, we developed a CNN model capable of accurately classifying images of natural scenes into six categories. By leveraging deep learning techniques and the rich features extracted by convolutional layers, the model demonstrates robust performance in image classification tasks. Further optimization and fine-tuning of the model could potentially enhance its performance even further.
+To install the required packages, run the following command:
+
+```bash
+pip install -r requirements.txt

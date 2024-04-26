@@ -15,6 +15,15 @@ The dataset used for this project is sourced from Kaggle and can be found [here]
 - Sea
 - Street
 
+## Obtaining Kaggle API Token
+
+To download the dataset directly from Kaggle, you need to have a Kaggle API token (`kaggle.json`). Here's how you can obtain and upload it:
+
+1. Go to the Kaggle website and sign in (or sign up if you don't have an account).
+2. Navigate to your account settings by clicking on your profile picture in the top-right corner and selecting "Account".
+3. Scroll down to the API section and click on "Create New API Token". This will download a file named `kaggle.json`.
+4. Click the "Choose File" button below to upload your `kaggle.json` file.
+
 ## Model Architecture
 
 We employed a Convolutional Neural Network (CNN) for image classification. The model architecture consists of multiple convolutional layers followed by max-pooling layers to extract relevant features from the images. After flattening the output, dense layers are used for classification, with a softmax activation function to output probabilities for each class.
